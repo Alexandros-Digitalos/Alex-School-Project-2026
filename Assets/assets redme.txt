@@ -1,0 +1,7 @@
+This folder is for general stuff.
+Things that can be found all troughout the game.
+
+It is NOT for specific art & sounds. 
+For that would be inside the Entities Folder at their specific sub-folder:
+Characters, NPCs, Items, etc. 
+In these places, the assets would have dependencies.

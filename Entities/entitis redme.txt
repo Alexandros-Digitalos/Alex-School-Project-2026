@@ -1,0 +1,8 @@
+What is Entity?
+Anything that can appear within the game world.
+
+Things like Characters, NPCs, Enemies, Items, Camera, Bosses, etc. 
+Everything that this Entity would have dependencies to, should be in in the folder with it.
+
+Relative to the Player - Enteties are "siblings".
+Unlike Stages, where they're used as "parents" to the player.

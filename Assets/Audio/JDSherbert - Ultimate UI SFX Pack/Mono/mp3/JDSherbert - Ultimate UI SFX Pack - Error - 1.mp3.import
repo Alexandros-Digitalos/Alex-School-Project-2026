@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bcfpvaqkxjqns"
+path="res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Error - 1.mp3-2dd7903b51a6fef13e8ec7d9f0f4e2eb.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/JDSherbert - Ultimate UI SFX Pack/Mono/mp3/JDSherbert - Ultimate UI SFX Pack - Error - 1.mp3"
+dest_files=["res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Error - 1.mp3-2dd7903b51a6fef13e8ec7d9f0f4e2eb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

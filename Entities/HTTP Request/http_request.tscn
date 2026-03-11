@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dudafdjjdcptg"]
+
+[ext_resource type="Script" uid="uid://bji1n42kkc7wt" path="res://Entities/HTTP Request/http_request.gd" id="1_bomsq"]
+
+[node name="HTTPRequest" type="HTTPRequest" unique_id=1834821364]
+script = ExtResource("1_bomsq")

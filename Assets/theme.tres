@@ -1,0 +1,7 @@
+[gd_resource type="Theme" format=3 uid="uid://jftjuf62ngkx"]
+
+[ext_resource type="StyleBox" uid="uid://db8ltl18fdi1n" path="res://Assets/Art/Godot Glass UI Source/base_stylebox.tres" id="1_0dftj"]
+
+[resource]
+default_font_size = 36
+PanelContainer/styles/panel = ExtResource("1_0dftj")

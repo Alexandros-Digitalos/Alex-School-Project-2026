@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dnhrmmsh657g2"]
+
+[ext_resource type="Shader" uid="uid://cp56g87sva5nt" path="res://Assets/Art/Godot Glass UI Source/glass_panel.gdshader" id="1_iaaer"]
+[ext_resource type="Theme" uid="uid://jftjuf62ngkx" path="res://Assets/theme.tres" id="2_ff4wj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rwcp6"]
+shader = ExtResource("1_iaaer")
+shader_parameter/brightness = 0.1
+shader_parameter/chromatic_shift_amount = 0.2
+shader_parameter/bend_amount = 0.4
+shader_parameter/blur_amount = 2.0
+shader_parameter/grain_amount = 0.05
+shader_parameter/curve_light_blend = 0.5
+shader_parameter/rim_light_blend = 0.8
+shader_parameter/shadow_color = Color(0, 0, 0, 1)
+
+[node name="Glass_Panel" type="PanelContainer" unique_id=1300752532]
+material = SubResource("ShaderMaterial_rwcp6")
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -64.0
+offset_top = -64.0
+offset_right = 64.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_ff4wj")
